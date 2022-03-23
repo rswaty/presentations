@@ -1,0 +1,232 @@
+---
+title: "Billions of pixels for you: exploring LANDFIRE data for vegetation and fire mapping"
+subtitle: "NMU Biology Departmental Seminar"
+author: "Randy Swaty"
+institute: "The Nature Conservancy's LANDFIRE Team"
+date: "2022/03/25"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# I am glad to be here
+
+---
+class: inverse, center, middle
+
+# Success =
+## You know more about The Nature Conservancy than you already do
+## I hear from you about collaborating
+## We build [even more] skills in each other
+
+---
+class: inverse, center, middle
+background-image: url("images/group_lookout.jpg")
+background-size: contain
+
+---
+class: inverse, center, middle
+background-image: url("images/trailer_loading.jpg")
+background-size: contain
+
+---
+class: inverse, center, middle
+
+# The Nature Conservancy (TNC, Totally Non-Confrontational :)) is a global environmental nonprofit working to create a world where people and nature can thrive.
+
+---
+class: inverse, center, middle
+
+# The Numbers:
+## Started in 1951
+## > 4,000 employees, ~400 scientists
+## All 50 states, working in 76 countries
+## Protected over 125,000,000 acres
+
+---
+class: inverse, center, middle
+
+## TNC's 2030 Goals
+
+---
+class: inverse, center, middle
+
+# Reduce or store 3 gigatons of C02 emissions yearly
+
+https://rswaty.github.io/carbonBlockGroups/dash.html
+
+---
+class: inverse, center, middle
+background-image: url("images/sarahCanoe.jpg")
+background-size: contain
+
+# Benefit 100 million people
+
+---
+class: inverse, center, middle
+background-image: url("images/finnJumps.jpg")
+background-size: contain
+
+
+# Conserve nearly 10 billion acres of ocean
+
+---
+class: inverse, center, middle
+background-image: url("images/vdep.jpg")
+background-size: contain
+
+
+# Conserve 1.6 billion acres of land
+
+---
+class: inverse, center, middle
+background-image: url("images/glacierSign.jpg")
+background-size: contain
+
+
+# Support 45 million local stewards
+
+---
+class: inverse, center, middle
+
+# The Nature Conservancy (TNC, Totally Non-Confrontational :)) is a global environmental nonprofit working to create a world where people and nature can thrive.
+
+---
+class: inverse, center, middle
+background-image: url("images/collaborate.jpg")
+background-size: contain
+
+
+# What do I want to collaborate on?
+
+---
+class: inverse, center, middle
+
+# Build skills through:
+## Using large conservation-focused datasets
+## Exploring state and transition models
+## Communicating outside of acadamia
+
+---
+
+class: inverse, center, middle
+background-image: url("images/bps.jpg")
+background-size: contain
+
+
+# 8,978,751,582
+
+---
+class: inverse, center, middle
+
+
+## LANDFIRE is a shared program between the wildland fire management programs of the U.S. Department of Agriculture Forest Service and U.S. Department of the Interior, providing landscape scale geo-spatial products to support cross-boundary planning, management, and operations. 
+
+---
+class: inverse, center, middle
+
+
+# LANDFIRE:
+## Is real people, really
+## Produces and delivers dozens of fire, fuel and vegetation datasets
+## Updates data every 2 years, moving to a one year update
+
+---
+class: inverse, left, middle
+
+
+# LANDFIRE products:
+## Fire, modeled past and mapped present (1999-2016 and continuing)
+## Historical ecosystems: spatial data, models and descriptions
+## Current ecosystems: characteristics and condition
+## Fuels: Fire Behavior Fuel Models
+## Topographic
+---
+
+class: inverse, center, middle
+background-image: url("images/fire.jpg")
+background-size: contain
+
+
+# Why should you care? Fire.
+
+---
+
+class: inverse, center, middle
+background-image: url("images/fire.jpg")
+background-size: contain
+
+
+# Why should you care? Publications.
+
+---
+
+class: inverse, center, middle
+background-image: url("images/fire.jpg")
+background-size: contain
+
+
+# Why should you care? Big data. 
+
+---
+class: inverse, left, middle
+
+ <iframe src="animatedHistCurrPlay.html" width="100%" height="500"></iframe>
+
+# One thing I have learned with LANDFIRE data
+
+---
+
+class: center, middle
+background-image: url("images/waffle.png")
+background-size: contain
+---
+
+class: inverse, left, middle
+
+ <iframe src="bigBps.html" width="120%" height="600"></iframe>
+
+
+
+---
+class: inverse, left, middle
+
+
+# LANDFIRE:
+## Delivers big ecological datasets
+## Has produced state and transition models for each ecosystem
+## Datasets involved in real land management issues every day
+
+https://landfire.gov/index.php
+---
+class: inverse, center, middle
+
+
+# What can we do together:
+## Build portfolios (e.g., maps of carbon, LANDFIRE Vegetation Types)
+
+https://wmontillamorantes.myportfolio.com/a
+
+---
+class: inverse, center, middle
+background-image: url("images/sass.jpg")
+background-size: contain
+
+
+# Use LANDFIRE models to explore management and disturbance
+
+---
+class: inverse, center, middle
+
+# Internships
+
+https://conservationdatalab.org/
+
+NMU students: Cole Bonino, Liz Armstrong, Cassie Begert, Myles Walimaa, Scott Benhart, Cassidy Downing, Erin Matula, Gavin White, Lea Kemle and Mary Kelly
+

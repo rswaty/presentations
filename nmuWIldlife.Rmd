@@ -1,0 +1,241 @@
+---
+title: "What are you going to do?"
+subtitle: "Terrible questions from adults"
+author: "Randy Swaty"
+institute: "The Nature Conservancy and Conservation Data Lab"
+date: "2022/03/21 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "hygge"]
+---
+
+class: inverse, center, middle
+
+# THANK YOU
+
+---
+class: inverse, center, middle
+
+# What do you plan to do?
+## Grad school?
+## Start a business?
+## Travel?
+## Work?
+## Some or all of the above?
+---
+class: inverse, center, middle
+
+# Regardless...
+## You are smart, creative, energetic, amazing
+## You know how to do things (or know how to figure it out)
+## You have a story to tell
+
+---
+class: inverse, center, middle
+
+# This evening:
+## A little bit about my path
+## A day in the life of me
+## A rant, and call to action
+
+---
+class: inverse, center, middle
+
+# A little bit about my path
+
+---
+class: inverse, center, middle
+background-image: url("rysneer.jpg")
+background-size: contain
+
+# Wrote my thesis with this guy in a swing
+
+---
+class: inverse, center, middle
+
+# Lessons learned:
+## Find a mentor
+## Do things outside of class 
+## Don't let school squash your curiousity
+
+---
+class: inverse, center, middle
+background-image: url("amgothicv2.jpg")
+background-size: contain
+
+# First job with The Nature Conservancy
+---
+class: inverse, center, middle
+
+## What is The Nature Conservancy?
+## What I was hired to do :)
+## Why the environmentalists hated me
+
+---
+class: inverse, center, middle
+background-image: url("meInPlane.jpg")
+background-size: contain
+
+# Second job with TNC, what I thought I'd be doing
+
+---
+class: inverse, center, middle
+background-image: url("me_home_office.jpg")
+background-size: contain
+
+# Second job with TNC, what I really do
+
+---
+class: inverse, center, middle
+background-image: url("group_lookout.jpg")
+background-size: contain
+
+# Second job with TNC, sometimes it's not what it seems
+
+---
+class: inverse, center, middle
+
+# A day in the life of me
+## GIS
+## Modeling
+## Some writing
+## A fair amount of strategery
+
+---
+class: inverse, center, middle
+
+# The Rant you've been waiting for
+## In school you are quizzed, tested
+## Write papers...
+## Rarely get to interact with professionals
+
+I am not saying universities are bad...
+
+---
+class: inverse, center, middle
+
+# The Rant you've been waiting for
+## You are smart, creative, energetic, amazing
+## You know how to do things (or know how to figure it out)
+## You have a story to tell
+
+---
+class: inverse, center, middle
+
+# The opportunity
+## How can you take what you already know/do and turn it into something?
+## Do you know what you know/don't know?  How can you fill in the gaps?
+## What would make you happy?
+
+---
+class: inverse, center, middle
+
+# Make a portfolio website
+
+https://mtango99.github.io/
+
+## Turn what you do into something bigger
+
+---
+class: center, middle
+
+# Learn to code-fun for me (and super useful)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+
+library(chorddiag)
+library(igraph)
+library(readr)
+library(tidygraph)
+library(htmlwidgets)
+# saveWidget(p, file=paste0( getwd(), "/HtmlWidget/chord_interactive.html"))
+
+
+# read in data
+histFireGVchord <- read_csv("histFireGVchord.csv")
+#view(histFireGVchord)
+
+#convert to matrix
+histFireGVchordMatrix<-as.matrix(as_adjacency_matrix(as_tbl_graph(histFireGVchord),attr = "acres"))
+
+#clean up matrix (could be cleaner!)
+histFireGVchordMatrix = subset(histFireGVchordMatrix, select = -c(1:7))
+
+histFireGVchordMatrix2 <- histFireGVchordMatrix[-c(8:10),]
+
+#make a custom color pallet
+
+# ORIGINAL
+groupColors <-c( "#e6e0be", # grassland OK
+                 "#56bf5f", # hardwood OK
+                 "#1d4220", # conifer OK
+                 "#7db7c7", # riparian OK
+                 "#397d3f", # hardwood-conifer OK
+                 "#917e5c", # shrub
+                 "#5e513a", # savana
+                 "#fed98e", # surface
+                 "#fe9929", # mixed
+                 "#cc4c02")
+
+#MODIFIED
+# groupColors <-c( "#b8e3b9", # grassland OK
+#                  "#b8e3b9", # hardwood OK
+#                  "#b8e3b9", # conifer OK
+#                  "#b8e3b9", # riparian OK
+#                  "#b8e3b9", # hardwood-conifer OK
+#                  "#b8e3b9", # shrub
+#                  "#b8e3b9", # savana
+#                  "#e8ede9", # surface
+#                  "#bfbfbf", # mixed
+#                  "#aba9a9") 
+
+
+
+
+
+
+#make chord diagram
+chord<-chorddiag(data = histFireGVchordMatrix2,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 11 ,
+                 showTicks = FALSE,
+                 margin=100,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#B3B6B7"
+)
+chord   
+```
+
+---
+class: inverse, center, middle
+
+# Take class project opportunities/Capstones seriously
+
+## Push the thinking a bit--can you partner with a colleague and get more done?
+## Can you work with a dream future employer?  For example Andrea Denham of the Upper Peninsula Land Conservancy?
+## Take stock of what you know, and need to know.  How can you fill the gaps?
+
+---
+class: inverse, center, middle
+
+# Something to consider
+
+https://conservationdatalab.org/
+
+## Makes me happy anyways
+
+---
+class: inverse, center, middle
+background-image: url("brown.jpg")
+background-size: contain
+
+# Whoops I forgot wildlife
+
+
+
+
+
