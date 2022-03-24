@@ -13,17 +13,22 @@ output:
       countIncrementalSlides: false
 ---
 
+```{r packages, message=FALSE, warning=FALSE, include=FALSE}
+library('tidyverse')
+```
+
+
 class: inverse, center, middle
 
-# I am glad to be here
+# I am very happy to be here
 
 ---
 class: inverse, center, middle
 
 # Success =
 ## You know more about The Nature Conservancy than you already do
+## You e-mail me about using LANDFIRE data
 ## I hear from you about collaborating
-## We build [even more] skills in each other
 
 ---
 class: inverse, center, middle
@@ -164,6 +169,24 @@ background-size: contain
 
 
 # Why should you care? Publications.
+
+```{r pubChart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+lf_pubs <- read_csv("data/lf_pubs.csv")
+
+pubChart <- ggplot(data = lf_pubs, aes(x = year, y = number))+
+  geom_line(size = 2) +
+  theme_bw(base_size = 20) +
+  labs(
+    x = "Year",
+    y = "Number of papers",
+    title = "Peer reviewed papers with 'LANDFIRE' as a key word",
+    subtitle = "Data from Google Scholar, accessed through 'Publish or Perrish' software"
+  )
+
+pubChart
+
+```
+
 
 ---
 
