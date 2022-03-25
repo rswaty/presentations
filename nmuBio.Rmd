@@ -32,13 +32,19 @@ class: inverse, center, middle
 
 ---
 class: inverse, center, middle
-background-image: url("images/group_lookout.jpg")
-background-size: contain
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+knitr::include_graphics("images/group_lookout.jpg")
+```
 
 ---
 class: inverse, center, middle
-background-image: url("images/trailer_loading.jpg")
-background-size: contain
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+knitr::include_graphics("images/trailer_loading.jpg")
+```
+
 
 ---
 class: inverse, center, middle
@@ -68,34 +74,38 @@ https://rswaty.github.io/carbonBlockGroups/dash.html
 
 ---
 class: inverse, center, middle
-background-image: url("images/sarahCanoe.jpg")
-background-size: contain
 
 # Benefit 100 million people
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("images/sarahCanoe.jpg")
+```
+
 
 ---
 class: inverse, center, middle
-background-image: url("images/finnJumps.jpg")
-background-size: contain
-
 
 # Conserve nearly 10 billion acres of ocean
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("images/finnJumps.jpg")
+```
 
 ---
 class: inverse, center, middle
-background-image: url("images/vdep.jpg")
-background-size: contain
-
 
 # Conserve 1.6 billion acres of land
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/vdep.jpg")
+```
+
 
 ---
 class: inverse, center, middle
-background-image: url("images/glacierSign.jpg")
-background-size: contain
-
 
 # Support 45 million local stewards
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("images/glacierSign.jpg")
+```
+
 
 ---
 class: inverse, center, middle
@@ -104,11 +114,12 @@ class: inverse, center, middle
 
 ---
 class: inverse, center, middle
-background-image: url("images/collaborate.jpg")
-background-size: contain
-
 
 # What do I want to collaborate on?
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("images/collaborate.jpg")
+```
+
 
 ---
 class: inverse, center, middle
@@ -123,11 +134,12 @@ Bring in LANDFIRE
 ---
 
 class: inverse, center, middle
-background-image: url("images/bps.jpg")
-background-size: contain
-
 
 # 8,978,751,582
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/bps.jpg")
+```
+
 
 ---
 class: inverse, center, middle
@@ -157,18 +169,16 @@ class: inverse, left, middle
 ---
 
 class: inverse, center, middle
-background-image: url("images/fire.jpg")
-background-size: contain
-
 
 # Why should you care? Fire.
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/fire.jpg")
+```
+
 
 ---
 
 class: inverse, center, middle
-background-image: url("images/fire.jpg")
-background-size: contain
-
 
 # Why should you care? Publications.
 
@@ -193,11 +203,12 @@ pubChart
 ---
 
 class: inverse, center, middle
-background-image: url("images/stm.jpg")
-background-size: contain
-
 
 # Why should you care? Teaching ecology. 
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/stm.JPG")
+```
+
 
 ---
 class: inverse, left, middle
@@ -216,8 +227,6 @@ background-size: contain
 class: inverse, left, middle
 
  <iframe src="bigBps.html" width="120%" height="600"></iframe>
-
-
 
 ---
 class: inverse, left, middle
@@ -240,11 +249,12 @@ https://wmontillamorantes.myportfolio.com/a
 
 ---
 class: inverse, center, middle
-background-image: url("images/sass.jpg")
-background-size: contain
-
 
 # Use LANDFIRE models to explore management and disturbance
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("images/sass.jpg")
+```
+
 
 
 ---
@@ -275,29 +285,32 @@ https://conservationdatalab.org/
 
 ---
 class: inverse, center, middle
-background-image: url("images/cassieFire.jpg")
-background-size: contain
-
 
 # Cassie's map
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("images/cassieFire.png")
+```
+
 
 ---
 
 class: inverse, center, middle
-background-image: url("images/nh_oldgrowth.jpg")
-background-size: contain
-
 
 # Erin's analysis
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("images/nh_oldgrowth.jpg")
+```
+
 
 ---
 
 class: inverse, center, middle
-background-image: url("images/driftVdep.jpg")
-background-size: contain
-
 
 # Gavins's draft map
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("images/driftVdep.png")
+```
+
 
 ---
 
