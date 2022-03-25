@@ -311,6 +311,14 @@ class: inverse, center, middle
 knitr::include_graphics("images/driftVdep.png")
 ```
 
+---
+class: inverse, center, middle
+
+# Let's collaborate
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/MissedFire.jpg")
+```
+
 
 ---
 
