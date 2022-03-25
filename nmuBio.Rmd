@@ -27,8 +27,8 @@ class: inverse, center, middle
 
 # Success =
 ## You know more about The Nature Conservancy than you already do
-## You e-mail me about using LANDFIRE data
-## I hear from you about collaborating
+## We connect over using LANDFIRE products to teach and/or for research
+## Students benefit
 
 ---
 class: inverse, center, middle
@@ -113,10 +113,12 @@ background-size: contain
 ---
 class: inverse, center, middle
 
-# Build skills through:
-## Using large conservation-focused datasets
-## Exploring state and transition models
-## Communicating outside of acadamia
+
+# Using large conservation-focused datasets
+# Exploring state and transition models for teaching
+# Communicating
+
+Bring in LANDFIRE
 
 ---
 
@@ -191,11 +193,11 @@ pubChart
 ---
 
 class: inverse, center, middle
-background-image: url("images/fire.jpg")
+background-image: url("images/stm.jpg")
 background-size: contain
 
 
-# Why should you care? Big data. 
+# Why should you care? Teaching ecology. 
 
 ---
 class: inverse, left, middle
@@ -244,12 +246,62 @@ background-size: contain
 
 # Use LANDFIRE models to explore management and disturbance
 
----
-class: inverse, center, middle
 
-# Internships
+---
+class: inverse
+
+## NMU Conservation Data Lab members
+
+.pull-left[
+- Liz Armstrong (wetlands mapping in MI)
+- Scott Benhart (using LiDAR data in WA)
+- Cole Bonino (Driftless Region assessment, V1)
+- Cassie Begert (fire mapping in the Appalachians)
+- Cassidy Downing (GIS analysis, central Wyoming)
+]
+
+.pull-right[
+- Mary Kelly (learning R/GIS)
+- Lea Kemle (mapping for Indigenous Community in AK)
+- Rhayna Lillie (learning R/GIS)
+- Erin Matula (old growth mapping and more in VT)
+- Myles Walimaa (GIS processing in R)
+- Gavin White (Driftless Region assessment, V2)
+]
+
+Thanks to Matt VG, Suzy Z, Jana N for support!
 
 https://conservationdatalab.org/
 
-NMU students: Cole Bonino, Liz Armstrong, Cassie Begert, Myles Walimaa, Scott Benhart, Cassidy Downing, Erin Matula, Gavin White, Lea Kemle and Mary Kelly
+---
+class: inverse, center, middle
+background-image: url("images/cassieFire.jpg")
+background-size: contain
+
+
+# Cassie's map
+
+---
+
+class: inverse, center, middle
+background-image: url("images/nh_oldgrowth.jpg")
+background-size: contain
+
+
+# Erin's analysis
+
+---
+
+class: inverse, center, middle
+background-image: url("images/driftVdep.jpg")
+background-size: contain
+
+
+# Gavins's draft map
+
+---
+
+class: inverse, center, middle
+
+# I am very happy to be here
 
