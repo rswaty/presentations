@@ -117,7 +117,7 @@ class: inverse, center, middle
 
 # What do I want to collaborate on?
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
-knitr::include_graphics("images/collaborate.jpg")
+knitr::include_graphics("images/collaborate.JPG")
 ```
 
 
