@@ -1,0 +1,20 @@
+---
+title: "Shopping List"
+author: "Randy Swaty"
+date: '2019-04-14'
+output: pdf_document
+---
+
+
+## Marquette Food Co-Op
+
+* peanut butter
+* avacados
+* salsa ingredients
+* **do not forget eggs**
+
+<br> 
+\begingroup
+\fontfamily{phv}\fontsize{16}{18}\selectfont
+*You're doing a great job!!*
+\endgroup

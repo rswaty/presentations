@@ -141,7 +141,7 @@ class: center, middle
 
 # Learn to code-fun for me (and super useful)
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 
 
 library(chorddiag)
