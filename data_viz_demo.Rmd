@@ -1,6 +1,6 @@
 ---
 title: "R for data viz and more in the 'real world' "
-subtitle: "Inspiration, strategies and a call to action"
+subtitle: "Inspiration, strategies and looking forward"
 author: "Randy Swaty"
 institute: "The Nature Conservancy and Conservation Data Lab"
 date: "April 17, 2023"
@@ -123,25 +123,38 @@ class: inverse, left, middle
 
 # Strategies
 
-Ask yourself "how do I learn best?" <br>
-Ask yourself "what do I really do?  How can I fold coding into that?" <br>
-Organize---my data viz project
+## Ask yourself "how do I learn best?" <br>
+## Ask yourself "what do I really do?  How can I fold coding into that?" <br>
+## Organize---my data viz project
 
 *If it's not hard you probably aren't learning*
 
 ---
 class: inverse, left, middle
 
-# Call to action: Do good with your skills
+# Keep learning!
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%", fig.align='center'}
 knitr::include_graphics("images/finnJumps.jpg")
 ```
 
-*Consider learning, teaching, mentoring in the Conservation Data Lab*
 
 ---
+class: inverse, left, middle
+
+# Keep learning!
+
+## Blogs such as R-Bloggers and R-Weekly
+## Google your favorite topics--there's data or a package for that!
+## Tidy Tuesdays
+## Twitter
+
+**Conservation Data Lab**
+
+
+---
+
 class: inverse, left, middle
 
 # Don't forget to do this!
