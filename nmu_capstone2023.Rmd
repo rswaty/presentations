@@ -91,6 +91,8 @@ class: inverse, center, middle
 knitr::include_graphics("images/trailer_loading.jpg")
 ```
 
+## <div align="center">*Any questions about my job?* </div>
+
 ---
 class: inverse, center, middle
 
@@ -116,7 +118,9 @@ class: inverse, left, middle
 ## Pick one of Dr. Mittlefehldt's ideas 
 ## Take time to observe 
 
+<br>
 
+## <div align="center">*Any observations you'd like to explore together?*</div>
 
 ---
 class: inverse, left, middle
@@ -138,13 +142,44 @@ class: inverse, left, middle
 knitr::include_graphics("images/nmu.png")
 ```
 
+
+## <div align="center">*Thoughts, questions or observations?*</div>
 ---
 class: inverse, left, middle
+
+# Something LANDFIRE-ish
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/bps.jpg")
+```
+
+
+---
+class: inverse, center, middle
+
+# Something LANDFIRE-ish
+
+<br>
+<br>
+<br>
+<br> 
+
+https://claireburtrum.github.io/huronmanistee/ 
+
+<br> 
+<br> 
+<br> 
+<br> 
+
+## <div align="center">*Think you might want to collaborate?*</div>
+---
+class: inverse, center, top
 
 # Don't forget to do this!
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%", fig.align='center'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/sarahCanoe.jpg")
 ```
 
