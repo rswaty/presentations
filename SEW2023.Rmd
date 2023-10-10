@@ -223,15 +223,25 @@ datatable(df,
 
 <div align="center">Sum(cans) -  sum(Least) = Tomato Departure (30 - 17 = 13)</div>
 ---
-class: inverse, left, middle
+class: inverse, center, middle
 
-# Something LANDFIRE-ish
+# Time to translate
 
+Class of tomato ( e.g., 'canned')
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("images/bps.jpg")
-```
+Type of tomato within a class (e.g., "sauce")
 
+"What we want"
+
+"What we have"
+
+"Weird type"
+
+"Pantry"
+
+<br>
+
+## <div align="center">*What are the ecosystem/landscape analogues?*</div>
 
 ---
 class: inverse, center, middle
