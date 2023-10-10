@@ -1,6 +1,6 @@
 ---
-title: "Seize this open-ended craziness."
-subtitle: "About me, why Capstones and some ideas"
+title: "Ecosystem Condition"
+subtitle: "Fire, Forests and Fungi: Exploring the Condition of Our Ecosystems"
 author: "Randy Swaty"
 institute: "The Nature Conservancy"
 date: "September14, 2023"
@@ -229,7 +229,7 @@ class: inverse, center, middle
 
 Class of tomato ( e.g., 'canned')
 
-Type of tomato within a class (e.g., "sauce")
+Types within a class (e.g., "sauce")
 
 "What we want"
 
@@ -246,29 +246,47 @@ Type of tomato within a class (e.g., "sauce")
 ---
 class: inverse, center, middle
 
-# Something LANDFIRE-ish
+# TNC and LANDFIRE
 
-<br>
-<br>
-<br>
-<br> 
 
-https://claireburtrum.github.io/huronmanistee/ 
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("images/mules.jpg")
+```
 
-<br> 
-<br> 
-<br> 
-<br> 
 
-## <div align="center">*Think you might want to collaborate?*</div>
+## <div align="center">*Mule Story*</div>
+
 ---
-class: inverse, center, top
+class: inverse, center, middle
 
-# Don't forget to do this!
+# What is an ecosystem anyways
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
-knitr::include_graphics("images/sarahCanoe.jpg")
+knitr::include_graphics("images/bps.jpg")
+```
+
+## <div align="center">*Time for Lumper-Splitter Quiz!*</div>
+
+---
+class: inverse, center, top
+
+# This is where things get more complicated
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/nh_gap.jpg")
+```
+
+
+---
+class: inverse, center, top
+
+# Number wanted
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/nh.jpg")
 ```
 
 
