@@ -153,7 +153,7 @@ class: inverse, center, middle
 # Canned Tomatoes: what we want vs. what we have
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.height='450px',  fig.align='center'}
+```{r make chart, eval=FALSE, fig.align='center', message=TRUE, warning=TRUE, include=FALSE, out.height='450px'}
 
 toms <- read.csv("data/toms_data_only.csv")
 
@@ -168,8 +168,8 @@ toms_long$Canned.tomato.type <- factor(toms_long$Canned.tomato.type, levels= c(
   "Fire-roasted",
   "Paste",
   "Sauce",
-  "Weird kind",
-  "Whole"))
+  "Whole",
+  "Weird kind"))
 
 
 toms_plot <-
@@ -191,10 +191,18 @@ toms_plot <-
   scale_y_continuous(breaks=c(0, 2, 4, 6, 8, 10, 12))
 
 toms_plot
+
+ggsave("toms_plot.jpg", width = 12, height = 5, bg = "white")
 ```
 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/toms_plot.jpg")
+```
+
+
 ---
-class: inverse, left, middle
+class: inverse, center, middle
 
 # Getting there!
 
@@ -221,7 +229,25 @@ datatable(df,
 
 <br>
 
-<div align="center">Sum(cans) -  sum(Least) = Tomato Departure (30 - 17 = 13)</div>
+
+
+**Sum(Potential cans) -  sum(Least) = Tomato Departure (TD, 30 - 17 = 13)**
+
+---
+class: inverse, center, middle
+
+# Our Tomato Condition Class
+
+Compares what we have to what we want
+
+Uses math to do this (i.e., calculate Tomato Departure)
+
+TCC breaks Tomato Departure into 3 classes: 0-10 = TCC 1, etc. 
+
+We had a Tomato Departure of 13, for a TCC of 2.  
+
+* We need fewer weird tomatoes, more fire-roasted and whole
+
 ---
 class: inverse, center, middle
 
@@ -254,7 +280,7 @@ knitr::include_graphics("images/mules.jpg")
 ```
 
 
-## <div align="center">*Mule Story*</div>
+## <div align="center">*Mule Story, and what is this thing called 'LANDFIRE'*</div>
 
 ---
 class: inverse, center, middle
@@ -266,15 +292,15 @@ class: inverse, center, middle
 knitr::include_graphics("images/bps.jpg")
 ```
 
-## <div align="center">*Time for Lumper-Splitter Quiz!*</div>
+## <div align="center">*Map of ~1,000 ecosystems prior to European Colonization*</div>
 
 ---
 class: inverse, center, top
 
-# This is where things get more complicated
+# This is where things get complicated
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
 knitr::include_graphics("images/nh_gap.jpg")
 ```
 
@@ -282,11 +308,23 @@ knitr::include_graphics("images/nh_gap.jpg")
 ---
 class: inverse, center, top
 
-# Number wanted
+# Amount wanted ("reference conditions")
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/nh.jpg")
 ```
 
+## <div align="center">*Mycorrhizal fungi care about this*</div>
 
+---
+class: inverse, center, top
+
+# Mapping what is there today
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/sclasses.jpg")
+```
+
+## <div align="center">*Combine with ecosystems map for current inventory*</div>
