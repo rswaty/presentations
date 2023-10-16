@@ -3,7 +3,7 @@ title: "Ecosystem Condition"
 subtitle: "Fire, Forests and Fungi: Exploring the Condition of Our Ecosystems"
 author: "Randy Swaty"
 institute: "The Nature Conservancy"
-date: "September14, 2023"
+date: "September 14, 2023"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -49,13 +49,15 @@ class: inverse, center, middle
 
 # Our next hour+ together
 
-Tomato Condition Class (TCC)
-
 Fungi
+
+Tomato Condition Class (TCC)
 
 Vegetation Departure
 
 Fire
+
+## <div align="center">Testing your knowledge with trivia! </div>
 
 ---
 class: inverse, center, middle
@@ -70,7 +72,7 @@ knitr::include_graphics("images/tomatoes.png")
 
 
 
-## <div align="center">What is the condition of our tomato stock?</div>
+## <div align="center">What is the condition of our tomato inventory?</div>
 
 ---
 class: inverse, center, middle
@@ -272,7 +274,21 @@ Types within a class (e.g., "sauce")
 ---
 class: inverse, center, middle
 
-# TNC and LANDFIRE
+# Moving on to Ecosystem Condition
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("images/grong_stump.jpg")
+```
+
+
+## <div align="center">*We need ecosystem footprint and description, reference and current conditions*</div>
+
+
+---
+class: inverse, center, middle
+
+# Enter TNC and LANDFIRE
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
@@ -285,37 +301,39 @@ knitr::include_graphics("images/mules.jpg")
 ---
 class: inverse, center, middle
 
-# What is an ecosystem anyways
+# One of many LANDFIRE datasets
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/bps.jpg")
 ```
 
-## <div align="center">*Map of ~1,000 ecosystems prior to European Colonization*</div>
+## <div align="center">*Map of ~1,000 ecosystem footprints prior to European Colonization*</div>
+
 
 ---
 class: inverse, center, top
 
-# This is where things get complicated
+# Reference conditions collaborativily developed
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
-knitr::include_graphics("images/nh_gap.jpg")
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics("images/collaborate.jpg")
 ```
 
+## <div align="center">*Hundreds of experts, dozens of workshops and a big group hug*</div>
 
 ---
 class: inverse, center, top
 
-# Amount wanted ("reference conditions")
+# The models
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/nh.jpg")
 ```
 
-## <div align="center">*Mycorrhizal fungi care about this*</div>
+## <div align="center">*How did our ecossytems look and work?*</div>
 
 ---
 class: inverse, center, top
@@ -327,4 +345,56 @@ class: inverse, center, top
 knitr::include_graphics("images/sclasses.jpg")
 ```
 
-## <div align="center">*Combine with ecosystems map for current inventory*</div>
+## <div align="center">*Stack footprints and this map to get current percent of each succession class*</div>
+
+---
+class: inverse, center, top
+
+# Sage-steppe example
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/sage-steppe.jpg")
+```
+
+---
+class: inverse, center, top
+
+# Sage-steppe example
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/sage-steppe.jpg")
+```
+
+
+---
+class: inverse, center, top
+
+# Northern Hardwoods example
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/northern_hardwoods.jpg")
+```
+
+---
+class: inverse, center, top
+
+# Looking across the country
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/grong_falls.jpg")
+```
+
+
+---
+class: inverse, center, top
+
+# Looking across the country
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/vdep.jpg")
+```
