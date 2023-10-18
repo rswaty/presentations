@@ -362,7 +362,7 @@ class: inverse, center, top
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%", fig.align='center'}
-knitr::include_graphics("images/collaborate.jpg")
+knitr::include_graphics("images/collaborate.JPG")
 ```
 
 ## <div align="center">*Hundreds of experts, dozens of workshops and a big group hug*</div>
