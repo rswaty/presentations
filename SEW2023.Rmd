@@ -32,9 +32,11 @@ class: inverse, center, middle
 yes I am yelling
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # What I do-at least at work
+
+<br>
 
 Ecologist for The Nature Conservancy's LANDFIRE team  
 
@@ -43,11 +45,21 @@ Founder and co-lead of the Conservation Data Lab
 https://landfire.gov/ <br>
 https://conservationdatalab.org/
 
+<br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", out.height="5%",  fig.align='center'}
+knitr::include_graphics("images/sunset.jpg")
+```
+
+
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Our next hour+ together
+
+<br>
+<br>
 
 Fungi
 
@@ -57,27 +69,36 @@ Vegetation Departure
 
 Fire
 
+<br>
+<br>
+<br>
+
 ## <div align="center">Testing your knowledge with trivia! </div>
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Tomato Condition Class
 
-
+<br>
+<br>
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", out.height="5%",  fig.align='center'}
 knitr::include_graphics("images/tomatoes.png")
 ```
 
+<br>
 
 
-## <div align="center">What is the condition of our tomato inventory?</div>
+## <div align="center">What is the condition of my tomato inventory?</div>
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Canned Tomatoes
+
+<br>
+<br>
 
 Paste (few)
 
@@ -91,9 +112,12 @@ Organic, free-range, cruelty-free fire-roasted (even more)
 
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Fresh tomatoes
+
+<br>
+<br>
 
 Romas (few)
 
@@ -106,9 +130,13 @@ Heirloom Brandywine (a lot)
 
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Dried tomatoes
+
+<br>
+<br>
+<br>
 
 Home dehydrated (few)
 
@@ -117,14 +145,18 @@ Sun dried (quite a few)
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ## <div align="center">What do we do now that we know what we want?</div>
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Canned Tomatoes: what we want vs. what we have
 
+<br>
+<br>
 
 ```{r toms inputs, echo=FALSE, message=FALSE, warning=FALSE}
 library (tidyverse)
@@ -150,9 +182,12 @@ datatable(df,
 
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Canned Tomatoes: what we want vs. what we have
+
+<br>
+<br>
 
 
 ```{r make chart, eval=FALSE, fig.align='center', message=TRUE, warning=TRUE, include=FALSE, out.height='450px'}
@@ -204,11 +239,12 @@ knitr::include_graphics("images/toms_plot.jpg")
 
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
-# Getting there!
+# Calculate Tomato Departure
 
-
+<br>
+<br>
 
 ```{r toms least, echo=FALSE, message=FALSE, warning=FALSE}
 library (tidyverse)
@@ -235,10 +271,14 @@ datatable(df,
 
 **Sum(Potential cans) -  sum(Least) = Tomato Departure (TD, 30 - 17 = 13)**
 
+
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
 # Our Tomato Condition Class
+
+<br>
+<br>
 
 Compares what we have to what we want
 
@@ -255,17 +295,17 @@ class: inverse, center, middle
 
 # Time to translate
 
-Class of tomato ( e.g., 'canned')
+"Pantry"
 
-Types within a class (e.g., "sauce")
+Categories of tomato ( e.g., 'canned')
+
+Types within a category (e.g., "sauce")
 
 "What we want"
 
 "What we have"
 
 "Weird type"
-
-"Pantry"
 
 <br>
 
@@ -277,7 +317,7 @@ class: inverse, center, middle
 # Moving on to Ecosystem Condition
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/grong_stump.jpg")
 ```
 
@@ -378,13 +418,15 @@ class: inverse, center, top
 knitr::include_graphics("images/northern_hardwoods.jpg")
 ```
 
+
 ---
 class: inverse, center, top
 
 # Looking across the country
 
+<br>
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/grong_falls.jpg")
 ```
 
@@ -392,9 +434,70 @@ knitr::include_graphics("images/grong_falls.jpg")
 ---
 class: inverse, center, top
 
-# Looking across the country
+# Vegetation Departure 
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
 knitr::include_graphics("images/vdep.jpg")
 ```
+
+
+---
+class: inverse, center, top
+
+# Why the high Vegetation Departure?
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/mfri.jpg")
+```
+
+
+## <div align="center">*There was at least 180,000,000 acres of fire every year historically*</div>
+
+---
+class: inverse, center, top
+
+# Does it matter?
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/grong_basks.jpg")
+```
+
+
+## <div align="center">*Reference conditions may/may not = Desired Future Conditions, among other things*</div>
+
+
+---
+class: inverse, center, top
+
+# Your very own "Departure-O-Meter".  I found mine in Florida. 
+
+<br>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/blowdown.jpg")
+```
+
+<br>
+<br>
+
+## <div align="center">*More of a site-level approach!*</div>
+
+---
+class: inverse, center, top
+
+# Trivia Time 
+
+<br>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%", fig.align='center'}
+knitr::include_graphics("images/painting.jpg")
+```
+
+
+
+## <div align="center">*THANK YOU!*</div>
