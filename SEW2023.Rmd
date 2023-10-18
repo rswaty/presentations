@@ -173,7 +173,9 @@ datatable(df,
                 background = 'lightblue', angle = -90,
                 backgroundSize = '98% 88%',
                 backgroundRepeat = 'no-repeat',
-                backgroundPosition = 'center')
+                backgroundPosition = 'center',
+                fontSize = '75%',
+                fontWeight = 'bold')
 
 
 ```
@@ -260,7 +262,9 @@ datatable(df,
           formatStyle(names(df),
                 background = 'lightblue', angle = -90,
                 backgroundRepeat = 'no-repeat',
-                backgroundPosition = 'center')
+                backgroundPosition = 'center',
+                fontSize = '75%',
+                fontWeight = 'bold')
 
 
 ```
@@ -485,6 +489,21 @@ knitr::include_graphics("images/blowdown.jpg")
 <br>
 
 ## <div align="center">*More of a site-level approach!*</div>
+
+
+---
+class: inverse, center, top
+
+# Bringing it back
+
+<br>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align='center'}
+knitr::include_graphics("images/fungal_networks.jpg")
+```
+
+*From https://www.katieholten.com/emergenceforest*
 
 ---
 class: inverse, center, top
