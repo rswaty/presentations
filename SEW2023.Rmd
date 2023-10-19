@@ -78,7 +78,7 @@ Fire
 ---
 class: inverse, center, top
 
-# Tomato Condition Class
+# Tomato Departure
 
 <br>
 <br>
@@ -246,7 +246,7 @@ class: inverse, center, top
 # Calculate Tomato Departure
 
 <br>
-<br>
+
 
 ```{r toms least, echo=FALSE, message=FALSE, warning=FALSE}
 library (tidyverse)
@@ -273,13 +273,13 @@ datatable(df,
 
 
 
-**Sum(Potential cans) -  sum(Least) = Tomato Departure (TD, 30 - 17 = 13)**
+ <font size="5">Sum(Potential cans) -  sum(Least) = Tomato Departure, (30 - 17 = 13)</font>
 
 
 ---
 class: inverse, center, top
 
-# Our Tomato Condition Class
+# Our Tomato Departure
 
 <br>
 <br>
@@ -287,10 +287,6 @@ class: inverse, center, top
 Compares what we have to what we want
 
 Uses math to do this (i.e., calculate Tomato Departure)
-
-TCC breaks Tomato Departure into 3 classes: 0-10 = TCC 1, etc. 
-
-We had a Tomato Departure of 13, for a TCC of 2.  
 
 * We need fewer weird tomatoes, more fire-roasted and whole
 
