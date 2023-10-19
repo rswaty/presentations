@@ -273,13 +273,13 @@ datatable(df,
 
 
 
- <font size="5">Sum(Potential cans) -  sum(Least) = Tomato Departure, (30 - 17 = 13)</font>
+ <font size="5"> Tomato Departure = 30 - 17 = 13</font>
 
 
 ---
 class: inverse, center, top
 
-# Our Tomato Departure
+# My Tomato Departure
 
 <br>
 <br>
@@ -288,7 +288,9 @@ Compares what we have to what we want
 
 Uses math to do this (i.e., calculate Tomato Departure)
 
-* We need fewer weird tomatoes, more fire-roasted and whole
+I have 'moderate" Tomato Departure
+
+We need fewer weird tomatoes, more fire-roasted and whole
 
 ---
 class: inverse, center, middle
