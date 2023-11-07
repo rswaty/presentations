@@ -212,29 +212,54 @@ class: inverse, center, middle
 ## What would make you happy?
 
 ---
-class: inverse, center, middle
 
-# Take class project opportunities/Capstones seriously
-
-## Push the thinking a bit--can you partner with a colleague and get more done?
-## Can you work with a dream future employer?  For example Andrea Denham of the Upper Peninsula Land Conservancy?
-## Take stock of what you know, and need to know.  How can you fill the gaps?
-
----
 class: inverse, center, middle
 
 # Something to consider
 
 https://conservationdatalab.org/
 
-## Makes me happy anyways
+Makes me happy anyways
 
 ---
 class: inverse, center, middle
-background-image: url("brown.jpg")
-background-size: contain
 
-# Whoops I forgot wildlife
+
+# Some next steps
+
+<br>
+
+
+### ECOLOG, https://www.esa.org/membership/ecolog/
+### International Association of Landscape Ecology https://www.ialena.org/
+### Society for Conservation GIS https://scgis.org/
+### Society for Conservation Biology https://conbio.org/
+### The Nature Conservancy
+
+---
+class: inverse, center, middle
+
+
+# That pesky resume
+
+<br>
+
+### You have 3-4 drafts to go
+### Use chatGPT (with caution and ethically of course)
+### Hit up career center (you pay them!)
+### Get review from anyone
+### Look into different formats
+
+---
+class: inverse, center, middle
+
+# Questions?
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", out.height="5%",  fig.align='center'}
+knitr::include_graphics("images/sarahCanoe.jpg")
+```
 
 
 
