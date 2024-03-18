@@ -1,0 +1,136 @@
+---
+title: "Some career thoughts, SyncroSim and our Friday lab"
+subtitle: "Landscape Ecology Lab prep"
+author: "Randy Swaty"
+institute: "The Nature Conservancy's LANDFIRE Team"
+date: "April 2024"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r packages, message=FALSE, warning=FALSE, include=FALSE}
+library('tidyverse')
+```
+
+
+class: inverse, center, middle
+
+# I am very happy to be here
+
+---
+class: inverse, center, middle
+
+# Success =
+## You know that you are more than a career
+## Everyone is pumped to learn about SyncroSim
+## Y'all are primed for success on Friday
+
+---
+class: inverse, center, middle
+
+# A little about my path
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="77%", fig.align='center'}
+knitr::include_graphics("images/success.png")
+```
+
+It's been a little up and down shall we say
+
+---
+
+class: inverse, center, middle
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="30%", fig.align='center'}
+knitr::include_graphics("images/me_duck_lake_fire.jpg")
+```
+
+
+This is what I thought I'd be doing as an ecologist for **The Nature Conservancy's LANDFIRE** team
+
+
+---
+class: inverse, center, middle
+
+# The Nature Conservancy (TNC, Totally Non-Confrontational :)) is a global environmental nonprofit working to create a world where people and nature can thrive.
+
+---
+class: inverse, center, middle
+
+# The Numbers:
+## Started in 1951
+## > 4,000 employees, ~400 scientists
+## All 50 states, working in 76 countries
+## Protected over 125,000,000 acres
+
+---
+
+class: inverse, center, middle
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+knitr::include_graphics("images/landfire_website.png")
+```
+
+What is LANDFIRE?
+
+*From landfire.gov*
+
+---
+
+
+class: inverse, center, middle
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+knitr::include_graphics("images/group_lookout.jpg")
+```
+
+You are not just a career = better career (and vice-versa)
+
+---
+class: inverse, center, middle
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+knitr::include_graphics("images/trailer_loading.jpg")
+```
+
+Still sometimes things just don't work out. 
+
+---
+class: inverse, center, middle
+# Take home messages
+
+## Cultivate positive relationships
+## Grow positive aspects of yourself (and learn how to communicate them)
+## Lean in.  Give it.  5% more. 
+
+---
+class: inverse, center, middle
+# Why model?
+
+## We need a way to understand ecosystems
+## Test management strategies
+## Build consensus
+
+---
+
+class: inverse, center, middle
+# Why model: understand ecosystems
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width='70%'}
+knitr::include_graphics("images/nh.jpg")
+```
+
+
+---
+
+class: inverse, center, middle
+
+
+# On to SyncroSim for quantitative work, followed by intro to Aspen-Birch exercise
