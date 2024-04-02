@@ -26,9 +26,18 @@ class: inverse, center, middle
 class: inverse, center, middle
 
 # Success =
-## You know that you are more than a career
-## Everyone is pumped to learn about SyncroSim
+## You think of school as much more than just courses
 ## Y'all are primed for success on Friday
+## I hear from some of you some day!
+
+---
+class: inverse, center, middle
+
+# Questions for you first:
+## Where are you from?  Who's from Idaho?  ZOOM folks please enter your locale in the chat.
+## How many of you have a job in addition to school?
+## How many of you have hobbies?  Gardening, gaming, golfing, geocaching?
+## How many of you are doing **your** part to get your money's worth from U of ID?
 
 ---
 class: inverse, center, middle
@@ -90,7 +99,7 @@ class: inverse, center, middle
 knitr::include_graphics("images/group_lookout.jpg")
 ```
 
-You are not just a career = better career (and vice-versa)
+What do you notice about the people?
 
 ---
 class: inverse, center, middle
@@ -107,7 +116,7 @@ class: inverse, center, middle
 # Take home messages
 
 ## Cultivate positive relationships
-## Grow positive aspects of yourself (and learn how to communicate them)
+## Identify and grow positive aspects of yourself (and learn how to communicate them)
 ## Lean in.  Give it.  5% more. 
 
 ---
@@ -117,6 +126,8 @@ class: inverse, center, middle
 ## We need a way to understand ecosystems
 ## Test management strategies
 ## Build consensus
+
+**It does work sometimes :)**
 
 ---
 
