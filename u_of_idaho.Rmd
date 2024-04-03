@@ -63,6 +63,8 @@ knitr::include_graphics("images/me_duck_lake_fire.jpg")
 
 This is what I thought I'd be doing as an ecologist for **The Nature Conservancy's LANDFIRE** team
 
+*QUESTIONS FOR ME?*
+
 
 ---
 class: inverse, center, middle
@@ -78,6 +80,7 @@ class: inverse, center, middle
 ## All 50 states, working in 76 countries
 ## Protected over 125,000,000 acres
 
+*QUESTIONS FOR ME?*
 ---
 
 class: inverse, center, middle
@@ -113,11 +116,23 @@ Still sometimes things just don't work out.
 
 ---
 class: inverse, center, middle
+# Let's talk jobs for a sec
+
+## nature.org
+## What we (and probably others) look for: grit and hunger
+## ECOLOG !!
+
+*QUESTIONS FOR ME?*
+
+---
+class: inverse, center, middle
 # Take home messages
 
 ## Cultivate positive relationships
 ## Identify and grow positive aspects of yourself (and learn how to communicate them)
-## Lean in.  Give it.  5% more. 
+## Lean in.  Give it.  5% more.
+
+*On to modeling and our Friday Lab*
 
 ---
 class: inverse, center, middle
@@ -132,16 +147,6 @@ class: inverse, center, middle
 ---
 
 class: inverse, center, middle
-# Why model: understand ecosystems
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width='70%'}
-knitr::include_graphics("images/nh.jpg")
-```
 
 
----
-
-class: inverse, center, middle
-
-
-# On to SyncroSim for quantitative work, followed by intro to Aspen-Birch exercise
+# On to our Aspen exercise
