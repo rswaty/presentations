@@ -22,30 +22,24 @@ knitr::include_graphics("images/grong.jpg")
 ```
 
 
-Randy Swaty, July 2024
+Randy Swaty, Fall 2024
 
 ---
-class: inverse, center, top
+class: inverse, left, top
 
 # Goals
 
-<br>
-<br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/vdep.jpg")
+```
 
 
-**Look at historical fire regimes (broadly)**
-
-**Explore today's fire exposure, science and action**
-
-**Discuss Living with Fire Strategy**
+* Look at historical fire regimes
+* Explore today's fire exposure, science and action 
+* Discuss next steps
 
 
-
-<br>
-<br>
-
-## <div align="center">Designed as a converstion starter! </div>
-## <div align="center">Doubt I will tell you anything new!</div>
 
 ---
 
@@ -64,7 +58,7 @@ knitr::include_graphics("images/mfri_MI.jpg")
 
 class: inverse, center, middle
 
-# Which Ecosystems?
+# Which Ecosystems (MFRI < 50yrs) ?
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/bps-mi.jpg")
@@ -76,7 +70,7 @@ knitr::include_graphics("images/bps-mi.jpg")
 
 class: inverse, center, middle
 
-# 1.3 Million Acres annually 
+# 1.3 MA annually historically (not today!)
 
 
 ```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
@@ -150,7 +144,7 @@ class: inverse, center, middle
 
 # Current fire occurances
 
-```{r fod bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+```{r fod bar, echo=FALSE, fig.height=6, fig.width=10, message=FALSE, warning=FALSE}
 fod <- read.csv("data/mi_fod_clean.csv")
 
 fod_chart <- 
@@ -168,9 +162,10 @@ fod_chart <-
 fod_chart
 ```
 
+Sleeper Lake and Duck Lake fires (2007 and 2012) represent most of highest bars
 ---
 
-class: inverse, left, middle
+class: inverse, left, top
 
 # More on recent fires
 
@@ -180,11 +175,12 @@ class: inverse, left, middle
 * MI DNR burned ~ 6,022ac in 2022 (73 burns).
 * ~3,500ac of wildfire in 2022 (376 fires; National Interagency Coordination Center)
 * Ottawa averaged ~80ac, Hiawatha ~165 and Huron-Manistee 3,686 over the last 3 years
-* Largest recent fire was the Duck Lake fire at ~23k ac
 * Ottawa NF has ~350ac planned, Hiawatha NF ~9,000k ac for 2024
 * Did not obtain USFWS plans; found Sleeping Bear has ~1,100ac planned for 2024
-* MIBU-TNC burned 67 and 164ac in 2022 and 2023 respectfully
 
+
+<br>
+<br>
 <br>
 ## <div align="center">Not comprehensive or authoritative</div>
 
@@ -198,12 +194,12 @@ class: inverse, left, middle
 knitr::include_graphics("images/mdnr_fire_needs.jpg")
 ```
 
-From Cohen et al., 2021.  Suggests 12k - 73k acres burning per year on state lands (currently burning ~5.5k ac)
+From Cohen et al., 2021.  Suggests 12k - 73k acres burning per year needed on state lands (currently burning ~5.5k ac)
 
 ---
 
 class: inverse, left, middle
-# About the need-older fire needs assessment
+# MI fire needs assessment
 
 
 
@@ -219,11 +215,11 @@ class: inverse, left, middle
 # About the need-wildfire likelihood
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", fig.align='center'}
 knitr::include_graphics("images/fire_likelihood.jpg")
 ```
 
-From https://wildfirerisk.org/, represents probability of a wildfire in a given year (2023 in this map).
+From https://wildfirerisk.org/, represents probability of a wildfire in a given year.
 
 ---
 
@@ -240,20 +236,31 @@ From Pickhard et al., 2024, https://conservation-data-lab.github.io/cup_assessme
 ---
 
 class: inverse, left, middle
+# About the need-wildfire exposure risk
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/mi_wfer_500m.png")
+```
+
+Beverly, J.L., McLoughlin, N. and Chapman, E., 2021. A simple metric of landscape fire exposure. Landscape Ecology, 36, pp.785-801. 
+---
+
+class: inverse, left, middle
 
 # More on the need
 
 <br>
 <br>
 
-* There is not a comprehensive, current fire needs assessment.  Assessments typically report staggeringly high numbers.
-* Climate change is not factored into these assessments (to my knowledge).  There are other climate-relevant resources that may factor fire in (e.g., NIACS vulnerability assessments).
+* There is not a comprehensive, current fire needs assessment.  
+* Climate change is not factored into these assessments (to my knowledge).  
 * For some goals and situations harvests should be factored in.  
 * "Need" may be defined very broadly, from structure-focused fuels reduction to forward-looking resiliency.
 * Additionally-there *could be* carbon-biodiversity-'other' conflicts and situations to assess moving forward.
 
 <br>
-## <div align="center">Not comprehensive or authoritative, and does not factor in Indigenous perspectives.</div>
+
 
 ---
 
@@ -270,20 +277,25 @@ knitr::include_graphics("images/grong_stump.jpg")
 
 ---
 
-class: inverse, left, middle
+class: inverse, left, top
 
-# Theory of Change-taken out of context
+# What I am hearing from Hiawatha and Ottawa National Forests
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%", fig.align='center'}
-knitr::include_graphics("images/northwoods_toc.jpg")
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%", fig.align='center'}
+knitr::include_graphics("images/crocs.jpg")
 ```
 
-## <div align="center">Emily will be sending me Midwest Fire TOC for more context</div>
+* We have to show up, even if it's just for a beverage
+* They are willing to send resources to Slate River
+* There are many ways to contribute
+
+
 
 ---
 
-class: inverse, left, middle
+class: inverse, left, top
 
 # What I am doing
 
@@ -295,3 +307,13 @@ class: inverse, left, middle
 * Across the Midwest I play well with WIBU and MNBU staff including Ann Calhoun, Hannah Spaul, Laura Slavsky, Chris Dunham, Marissa Ahlering
 * Trying to update historical ecosystem models when new info comes along
 * Connecting dots
+
+<br>
+
+## <div align="center">Is this OK? What would you like for me to be doing? </div>
+
+---
+
+class: inverse, center, middle
+
+# Now what?
