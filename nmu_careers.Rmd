@@ -33,6 +33,21 @@ yes I am yelling
 ---
 class: inverse, center, top
 
+# Prologue?
+
+<br>
+<br>
+<br>
+
+## Hydraulic hose - own it
+## Kitty Gehring - lean in
+## Failed fellowship - keep growing
+
+
+---
+
+class: inverse, center, top
+
 # Today:
 
 <br>
@@ -41,10 +56,11 @@ class: inverse, center, top
 
 ## A little bit about my path
 ## A day in the life of me
-## A rant, and call to action
+## Share some ideas (maybe some new ones!)
 
 
 ---
+
 class: inverse, center, middle
 
 # A little about my path
@@ -59,7 +75,7 @@ It's been a little up and down shall we say
 ---
 
 class: inverse, center, middle
-
+# My college experience
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/rysneer.jpg")
@@ -171,45 +187,49 @@ class: inverse, center, middle
 ## Work?
 ## Some or all of the above?
 ---
-class: inverse, center, middle
-
-# Regardless...
-## You are smart, creative, energetic, amazing
-## You know how to do things (or know how to figure it out)
-## You have a story to tell
-
-
-
----
 
 class: inverse, center, middle
 
-# The Rant you've been waiting for
-## In school you are quizzed, tested
-## Write papers...
-## Rarely get to interact with professionals
+# Ideas
+## School is an all you can eat buffet - lean in
+## Your application is multi-part - own it
+## Future resume - keep growing
 
 <br>
 
-I am not saying universities are bad...
-
-
 ---
 class: inverse, center, middle
 
-# Make a portfolio website
+# Lean in: Make a portfolio website
 
 https://mtango99.github.io/
 
 Turn what you do into something bigger
 
+
 ---
 class: inverse, center, middle
 
-# The opportunity
-## How can you take what you already know/do and turn it into something?
-## Do you know what you know/don't know?  How can you fill in the gaps?
-## What would make you happy?
+# Own it: tell your story
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/grong_falls.jpg")
+```
+
+
+Say you are a caregiver for your G'ma or are a dishwasher at Stucko's
+
+---
+class: inverse, center, middle
+
+# Draft your resume of the future
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/grong_basks.jpg")
+```
+
 
 ---
 
@@ -237,20 +257,7 @@ class: inverse, center, middle
 ### The Nature Conservancy
 
 ---
-class: inverse, center, middle
 
-
-# That pesky resume
-
-<br>
-
-### You have 3-4 drafts to go
-### Use chatGPT (with caution and ethically of course)
-### Hit up career center (you pay them!)
-### Get review from anyone
-### Look into different formats
-
----
 class: inverse, center, middle
 
 # Questions?
