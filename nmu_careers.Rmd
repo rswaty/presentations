@@ -223,7 +223,7 @@ Say you are a caregiver for your G'ma or are a dishwasher at Stucko's
 ---
 class: inverse, center, middle
 
-# Draft your resume of the future
+# Keep growing: draft future resume
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
