@@ -134,16 +134,9 @@ class: inverse, center, middle
 ## Produces and delivers dozens of fire, fuel and vegetation datasets
 ## Updates data every 2 years, moving to a one year update
 
----
-class: inverse, left, middle
+<br>
+# https://landfire.gov/
 
-
-# LANDFIRE products:
-## Disturbances, modeled past and map present
-## Historical ecosystem spatial data, models and descriptions
-## Current ecosystems: characteristics and condition
-## Fuels: Fire Behavior Fuel Models
-## Topographic
 ---
 
 class: inverse, center, middle
@@ -152,20 +145,6 @@ class: inverse, center, middle
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
 knitr::include_graphics("images/fire.jpg")
 ```
-
-
----
-class: inverse, center, top
-
-# My career path and current job
-
-<br>
-<br>
-<br>
-
-## Hydraulic hose - own it
-## Kitty Gehring - lean in
-## Failed fellowship - keep growing
 
 
 ---
@@ -182,16 +161,29 @@ knitr::include_graphics("images/success.png")
 # It's been a little up and down shall we say
 
 ---
+class: inverse, center, top
+
+# My college and career path
+
+<br>
+<br>
+<br>
+
+## Kitty Gehring - lean in
+## Hydraulic hose - own it
+## Failed fellowship - keep growing
+
+---
 
 class: inverse, center, middle
-# My college experience
+# My college story
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%", fig.align='center'}
 knitr::include_graphics("images/rysneer.jpg")
 ```
 
 
-# Wrote my thesis with this guy in a swing
+# Wrote my thesis with this guy in a swing-thanks Kitty!
 
 ---
 class: inverse, center, top
@@ -214,7 +206,7 @@ class: inverse, center, top
 knitr::include_graphics("images/grong_falls.jpg")
 ```
 
-# And why I was confronted on the street
+# Hydrualic hoses, and why I was confronted on the street
 
 ---
 class: inverse, center, middle
@@ -256,7 +248,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-# Also!!!
+# Also!!! That failed fellowship
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%", fig.align='center'}
