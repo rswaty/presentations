@@ -1,3 +1,14 @@
+
+
 body {
   font-family: 'Nirmala UI', sans-serif;
+  font-size: 0.7em; !important; /* Adjust the value as needed */
+}
+
+.remark-slide-content h1 {
+  font-size: 1.8em; /* Adjust the value as needed */
+}
+
+.remark-slide-content h2 {
+  font-size: 1.5em; /* Adjust the value as needed */
 }
