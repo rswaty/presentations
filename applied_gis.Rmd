@@ -3,7 +3,7 @@ title: "What, when, how and why I use GIS"
 subtitle: "Applied GIS Course"
 author: "Randy Swaty"
 institute: "The Nature Conservancy's LANDFIRE Team"
-date: "2025/02/25"
+date: "2025/04/17"
 output:
   xaringan::moon_reader:
     css: ["default", "custom.css"]
