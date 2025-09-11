@@ -152,9 +152,9 @@ knitr::include_graphics("images/fire.jpg")
 
 class: inverse, center, middle
 
-# Why does TNC care? Priorizing-Fvaluating-Funding
+# Why does TNC care? Priorizing-Evaluating-Funding
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="8%"}
 knitr::include_graphics("images/cflrp.jpg")
 ```
 
@@ -301,7 +301,7 @@ class: inverse, center, middle
 
 # What about you?
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
 knitr::include_graphics("images/grong.jpg")
 ```
 
