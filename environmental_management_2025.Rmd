@@ -53,10 +53,10 @@ class: inverse, center, middle
 class: inverse, center, middle
 
 # The Numbers:
-## Started in 1951
-## > 4,000 employees, ~400 scientists
+## Started in 1951 (formally recognized as a non-profit)
+## > 5,000 employees, ~400 scientists
 ## All 50 states, working in 76 countries
-## Protected over 125,000,000 acres
+## Protected (?) over 125,000,000 acres.  Started with 60 acre land purchase.
 
 ---
 class: inverse, center, middle
@@ -66,14 +66,14 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-# Reduce or store 3 gigatons of C02 emissions yearly
+# Reduce or store 3 gigatons of C02 emissions yearly (6 million elephants worth)
 
 https://rswaty.github.io/carbonBlockGroups/dash.html
 
 ---
 class: inverse, center, middle
 
-# Benefit 100 million people
+# Benefit (???) 100 million people
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
 knitr::include_graphics("images/sarahCanoe.jpg")
 ```
@@ -90,18 +90,25 @@ knitr::include_graphics("images/finnJumps.jpg")
 ---
 class: inverse, center, middle
 
-# Conserve 1.6 billion acres of land
+# Conserve (???) 1.6 billion acres of land
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
 knitr::include_graphics("images/vdep.jpg")
 ```
 
+---
+class: inverse, center, middle
+
+# Conserve (???) 620,000 miles of rivers
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("images/vdep.jpg")
+```
 
 ---
 class: inverse, center, middle
 
 # Support 45 million local stewards
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
-knitr::include_graphics("images/grong_stump.jpg")
+knitr::include_graphics("images/river.jpg")
 ```
 
 
@@ -154,7 +161,7 @@ class: inverse, center, middle
 
 # Why does TNC care? Priorizing-Evaluating-Funding
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="8%"}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
 knitr::include_graphics("images/cflrp.jpg")
 ```
 
