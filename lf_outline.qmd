@@ -1,0 +1,119 @@
+---
+title: "Intro to LANDFIRE for TNC Climate Science Team"
+author: "Randy Swaty, Ecologist, TNC's LANDFIRE team"
+format:
+  html:
+    toc: true
+---
+
+## Goals/wins
+
+For our meeting success to me means:
+
+1. Getting to know each other a bit
+2. Introducing LANDFIRE and TNC's LANDFIRE team, plus some products
+3. We decide to have a follow up to brainstorm potential collaboration
+
+
+## LANDFIRE Program
+
+LANDFIRE is a shared interagency wildland fire management data program across the United States and Territories. Leadership, management, and oversight are through the U.S. Department of Agriculture Forest Service - Fire and Aviation Management and the U.S. Department of the Interior – Office of Wildland Fire.
+
+
+!["Map of Vegetation Departure for the Ecosystems of the United States"](images/vdep.jpg){style="float:right; margin-left: 5%; fig-align:right; width:50%;" fig-alt="\"Vegetation Departure for the Ecosystesm of the United States."}
+
+LANDFIRE provides more than twenty landscape-scale geospatial products of biological and ecological data, including data such as (900+) vegetation types and (13/40) fire behavior fuel models that support all-lands planning, fire and natural resources management, operations, analyses and assessments. 
+
+from [https://landfire.gov/](https://landfire.gov/)
+
+## The Nature Conservancy's LANDFIRE team
+
+* Is 6 people housed in North America Science.  Meet them [here](https://storymaps.arcgis.com/stories/f37983671094430ebd23035596deccb6).
+* We have a cooperative agreement with the US Forest Service where we are to provide user support, help maintain historical ecosystem data and models, and share science back to the broader LANDFIRE team and community
+* Our funding is exclusively for US work, however almost all of us have Coda fellowships and/or do international work when possible in the One Conservancy spirit
+
+
+## Tour of some of the datasets
+
+As noted above LANDFIRE produces 20+ datasets, most are 30M pixel sized rasters.  For today we will focus on 5 datasets and the outputs of the state-and-transition models.  To do so we will lean on a rapid landscape assessment we completed for the Ely Bureau of Land Management District located in eastern Nevada.
+
+Follow along at [https://thenatureconservancy.github.io/ely_blm/](https://thenatureconservancy.github.io/ely_blm/)
+
+## Looking at the past
+
+While we fully believe in climate change, invasive exotics, resource extraction, etc., we also believe that understanding the past has some value:
+
+1. Baseline for comparison
+2. Exploring the potential of a site
+3. As a structured way to explore management and change
+
+LANDFIRE captures historical ecosystem distributions, structure and function, and baseline information in 3 main products in the "Biophysical Settings (BpS)":
+
+1. [Spatial data](https://landfire.gov/vegetation/bps), as demonstrated at [https://thenatureconservancy.github.io/ely_blm/past.html](https://thenatureconservancy.github.io/ely_blm/past.html)
+2. [Descriptions](https://landfire.gov/vegetation/bps-models) delivered multiple ways including at [https://www.landfirereview.org/search.php](https://www.landfirereview.org/search.php) and Randy's very drafty very incomplete [Shiny App](https://randy-swaty.shinyapps.io/bps_shiny/)
+3. [State-and-Transition Models](https://landfire.gov/vegetation/bps-models) probably best learned about at [https://thenatureconservancy.github.io/landfiremodels/](https://thenatureconservancy.github.io/landfiremodels/).  Also see [Blankenship et al (2021)](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484) and [Swaty et al.(2021)](https://www.mdpi.com/2073-445X/11/1/28).
+
+**Main Takeaways**
+
+* BpSs map the dominant vegetation systems prior to European colonization.  Sort of a 'potential vegatation type' with disturbance added in
+* There are up to 5 succession classes described and modeled for each BpS
+* We used modeling to estimate how much of each succession class would have been on the landscape historically.  We use the descriptions to map and quantify how much of each class is on the landscape today, which sets us up for [Vegetation Departure](https://www.landfire.gov/vegetation/vdep), a metric that compares historic to current amounts of each succession class
+* Descriptions and models capture historical disturbance regimes including fire, wind/weather/stress, insects and pests, and others (e.g. bison wallowing)
+
+## Present
+
+LANDFIRE Maps multiple "Existing Vegetation" metrics including
+
+1. [Existing Vegetation Type-Ecological Systems](https://www.landfire.gov/vegetation/evt)
+2. [Existing Vegetation Cover](https://www.landfire.gov/vegetation/evc)
+3. [Existing Vegetation Height](https://www.landfire.gov/vegetation/evh)
+
+All of these are demonstrated on the [Present](https://thenatureconservancy.github.io/ely_blm/present.html) page of the Ely assessment.
+
+**Main Takeaways**
+
+* Each year LANDFIRE delivers multiple existing vegetation datasets
+* There was a 'base' dataset delivered in 2016.  For updates only disturbed datasets are remapped at this time.  Remapping depends on rules and disturbance data.
+* Datasets based on Landsat, LiDAR, other remotely sensed data plus LiDAR and user submitted plots where available.
+
+## Ecosystem Change and Condition
+
+LANDFIRE enables users to explore ecosystem conditions in multiple ways including:
+
+1. Comparing past to present ecosystem distributions as demonstrated in the top chart on the [Comparing](https://thenatureconservancy.github.io/ely_blm/comparing.html)page of the Ely Assessment
+2. Comparing past to present amounts of succession classes as demonstrated in the bottom set of charts on the [Comparing](https://thenatureconservancy.github.io/ely_blm/comparing.html)page of the Ely Assessment.  This method is the basis for the Vegetation Departure index, which results in a single value ranging from 0 to 100 per BpS
+
+## Looking forward and outside of the US
+
+While LANDFIRE is focused on the past and present, these foundations set users up for exploring the near and farther away future.  For example:
+
+1. There are many papers exploring how climate change may impact fire, both wild and prescribed, with LANDFIRE products as the basis
+2. Dr. Louis Provencher et al have multiple papers exploring potential impacts of climate change in which they modified LANDFIRE BpS models.  See [Provencher et al. (2021)](https://www.mdpi.com/2225-1154/9/5/79)
+3. We wrote up some considerations of modifying the BpS models to capture potential climate change impacts [here](https://thenatureconservancy.github.io/landfiremodels/climateChange.html)
+
+*These examples are the tip of the iceberg.*
+
+Outside of the US we have worked in Guatemala, China and Australia.  In Australia, agencies are building state-and-transition models inspired by LANDFIRE BpS models.  See [Luxton et al. (2025)](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.70164)
+
+
+## Even more links
+
+* [LANDFIRE 101](https://landfire-tnc.github.io/LANDFIRE_101/) 
+* For folks who want to play with LANDFIRE data in R see our [R-Demo](https://landfire-tnc.github.io/r_demos/)
+* [LANDFIRE YouTube Channel](https://www.youtube.com/@LANDFIREvideo) including several Open Office Hour presentations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
