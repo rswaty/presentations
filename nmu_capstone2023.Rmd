@@ -30,15 +30,37 @@ class: inverse, center, middle
 # THANK YOU
 
 yes I am yelling
+---
+
+class: inverse, center, middle
+
+# The goal: offer value
+
+
+
+<br>
+<br>
+
+### <div align="center">Share about my career path</div>
+
+### <div align="center">Learn about your projects</div>
+
+### <div align="center">Brainstorm ideas to get the work done, and to leverage results</div>
+
+### <div align="center">Offer some resources</div>
+
+
 
 ---
 class: inverse, center, middle
 
 # What I do-at least at work
 
-Ecologist for The Nature Conservancy's LANDFIRE team  
+### <div align="center">Ecologist for The Nature Conservancy's LANDFIRE team</div>  
 
-Founder and co-lead of the Conservation Data Lab
+### <div align="center">Founder and co-lead of the Conservation Data Lab</div>  
+
+
 
 https://www.nature.org/en-us/ <br>
 https://landfire.gov/ <br>
@@ -108,71 +130,57 @@ class: inverse, center, middle
 knitr::include_graphics("images/sunset_water_color.jpg")
 ```
 
-
+## <div align="center">Please tell me about your projects</div>
 ---
-class: inverse, left, middle
+class: inverse, center, top
 
-# Strategies
+# Brainstorm ideas for getting the work done, and leveraging results
 
-## Ask yourself "who, what, how?" 
-## Pick one of Dr. Mittlefehldt's ideas 
-## Take time to observe 
-
-<br>
-
-## <div align="center">*Any observations you'd like to explore together?*</div>
-
----
-class: inverse, left, middle
-
-# NMU carbon mapping and modeling
+### <div align="center">Make your work reproducible-example ArcGIS Pro project</div>  
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%", fig.align='center'}
-knitr::include_graphics("images/finnJumps.jpg")
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", out.height="5%",  fig.align='center'}
+knitr::include_graphics("images/arcGIS.jpg")
 ```
 
 ---
-class: inverse, left, middle
+class: inverse, center, top
 
-# NMU carbon mapping and modeling
+# Brainstorm ideas for getting the work done, and leveraging results
+
+### <div align="center">Automate</div>  
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("images/nmu.png")
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%", out.height="5%",  fig.align='center'}
+knitr::include_graphics("images/r_studio.jpg")
 ```
 
-
-## <div align="center">*Thoughts, questions or observations?*</div>
----
-class: inverse, left, middle
-
-# Something LANDFIRE-ish
-
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("images/bps.jpg")
-```
-
+https://landfire-tnc.github.io/r_demos/
 
 ---
-class: inverse, center, middle
+class: inverse, center, top
 
-# Something LANDFIRE-ish
+# Brainstorm ideas for getting the work done, and leveraging results
+
+### <div align="center">Your work can sit on a hard drive somewhere, or be shared</div>  
 
 <br>
 <br>
 <br>
-<br> 
 
-https://claireburtrum.github.io/huronmanistee/ 
 
-<br> 
-<br> 
-<br> 
-<br> 
 
-## <div align="center">*Think you might want to collaborate?*</div>
+https://mtango99.github.io/
+
+---
+class: inverse, center, top
+
+# Brainstorm ideas for getting the work done, and leveraging results
+
+### <div align="center">Let's Explore some resources</div>  
+
+GOOGLE
+
 ---
 class: inverse, center, top
 
